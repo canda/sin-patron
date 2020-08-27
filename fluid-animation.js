@@ -72,7 +72,9 @@ function pointerPrototype() {
 
 let pointers = [];
 let splatStack = [];
-pointers.push(new pointerPrototype());
+const firstPointer = new pointerPrototype();
+pointers.push(firstPointer);
+updatePointerDownData(firstPointer, -1, 0, 0);
 const circlePointer1 = new pointerPrototype();
 const circlePointer2 = new pointerPrototype();
 const circleDiameter = scaleByPixelRatio(
