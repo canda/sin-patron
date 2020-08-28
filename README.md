@@ -4,4 +4,10 @@ Took sin patrón [landing page](http://www.sin-patron.com.ar/our_clients.html) a
 
 Turned out really nice 😎. Take a look at https://sin-patron.vercel.app/
 
-![](screenshot.png)
+## Before
+
+[![](screenshot.png)](http://www.sin-patron.com.ar/our_clients.html)
+
+## After
+
+[![](smoke-animation.gif)](https://sin-patron.vercel.app/)
